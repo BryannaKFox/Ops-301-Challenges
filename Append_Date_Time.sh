@@ -16,5 +16,7 @@ cp "$source_file" "$destination_file"
 # Display a message indicating the copy is complete
 echo "SampleSyslog copied to $destination_file"
 
-# Append content to file
-echo "Appended to add the date: $(date +$%m-%d-%Y)" >> samplesyslog.log
+# Append the current date to the end of the file name
+new_destination_file="${destination_file%.log}-$(date +%m-%d-%Y).log"
+mv "$destination_file" "$new_destination_file"
+
