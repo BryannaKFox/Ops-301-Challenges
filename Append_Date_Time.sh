@@ -9,7 +9,6 @@
 # Set the source and destination file paths
 source_file="/var/log/syslog"
 destination_file="samplesyslog.log"
-current_date_time=$(date +"%m-%d-%Y")
 
 # Copy the syslog file to the current working directory
 cp "$source_file" "$destination_file"
