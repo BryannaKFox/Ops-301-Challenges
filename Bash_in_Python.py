@@ -9,7 +9,7 @@ location = 'New York'
 job = 'plumber'
 
 #Print the user and his information
-print; 'The name of the new employee' ; user
+print; 'The name of the new employee is' ; user
 print; user; 'lives in' ; location
 print; user; 'works as a' ; job 
 
