@@ -45,4 +45,6 @@ def get_system_info():
     print(f"Time spent by other operating systems running in a virtualized environment: {guest_time} seconds")
     print(f"Time spent running a virtual CPU for guest operating systems: {guest_nice_time} seconds")
 
+if __name__ == "__main__":
+    get_system_info()
 
