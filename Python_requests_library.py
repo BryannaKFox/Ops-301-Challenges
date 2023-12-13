@@ -1,4 +1,7 @@
-
+# Script:                       ops301d10-challenge 12
+# Author:                       Bryanna Fox
+# Date of latest revision:      12/12/2023
+# Purpose:                      Requests
 
 import requests
 
